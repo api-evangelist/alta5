@@ -1,0 +1,42 @@
+generated: '2026-07-17'
+method: searched
+source: https://docs.optionalpha.com/tools/bots/webhooks
+spec_type: Webhooks
+summary: >-
+  Option Alpha (Alta5) does not publish a general-purpose public REST API. Its
+  only programmatic integration surface is inbound trigger Webhooks: a user
+  generates a unique webhook URL inside their Option Alpha account and pastes it
+  into any external platform that can call a URL (TradingView, TrendSpider,
+  Zapier, custom scripts). Calling the URL fires the automation(s) bound to that
+  webhook. The webhook is an inbound trigger only — Option Alpha receives the
+  call and runs bot automations; it does not deliver outbound event payloads to
+  subscribers.
+direction: inbound
+webhooks:
+  - name: automation-trigger
+    summary: Trigger one or more bot automations when an external system calls the unique webhook URL.
+    trigger: External call to the user's unique Option Alpha webhook URL.
+    url_model: >-
+      A unique, per-webhook URL is generated in Option Alpha Settings (or when
+      creating a New Automation). The URL embeds an opaque code that identifies
+      the webhook; it is the shared secret. The same webhook can be shared
+      across multiple bots and persists when a bot is cloned.
+    fan_out: >-
+      A single webhook can trigger up to 10 automations in one bot, and can
+      trigger automations across multiple bots.
+    action_options: >-
+      A triggered automation can evaluate additional market criteria, position
+      filters and opportunity checks, open a position, or run alongside other
+      automations.
+    external_sources:
+      - TradingView (alert notifications)
+      - TrendSpider
+      - Zapier
+      - Email-to-webhook / custom scripts (e.g. Python)
+    docs: https://docs.optionalpha.com/tools/bots/webhooks
+    availability: All pricing plans (free to all users)
+notes: >-
+  The public docs do not publish a fixed request payload schema, authentication
+  header, or documented rate limits for the inbound webhook — the unique URL
+  itself is the auth mechanism. No AsyncAPI document is published; there is no
+  outbound event/streaming surface to model, so no AsyncAPI spec is fabricated.

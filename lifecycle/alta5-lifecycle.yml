@@ -1,0 +1,19 @@
+generated: '2026-07-17'
+method: searched
+source: https://optionalpha.com + https://status.optionalpha.com + https://docs.optionalpha.com
+versioning:
+  scheme: none
+  note: >-
+    Option Alpha ships a continuously-updated SaaS trading platform with no
+    published API version. Product changes are communicated via a dated
+    changelog rather than a versioned API contract.
+  changelog: https://optionalpha.com/changelog
+deprecation:
+  policy_url: null
+  sunset_header: false
+  note: No formal API deprecation policy or RFC 8594 Sunset/Deprecation header support is published (no public API).
+sla:
+  url: null
+  uptime_target: null
+status_page: https://status.optionalpha.com
+deprecated_operations: []

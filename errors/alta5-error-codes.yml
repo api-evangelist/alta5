@@ -1,0 +1,69 @@
+generated: '2026-07-17'
+method: searched
+source: https://docs.optionalpha.com/technical-documentation/troubleshooting
+format: named-platform-errors
+note: >-
+  Option Alpha publishes no HTTP/RFC 9457 API error catalog (no public REST
+  API). It does document a registry of named platform errors, warnings, and
+  failsafes that bots surface in automation logs when an automation cannot run
+  or an order is rejected. Captured here as the provider's error reference.
+envelope:
+  surfaced_in: bot automation logs (automation-logs)
+  docs: https://docs.optionalpha.com/tools/bots/automation-logs
+errors:
+  - id: broker-rejection
+    title: Broker Rejection Errors
+    cause: An order submitted through the autotrading platform was rejected by the connected broker.
+    docs: https://docs.optionalpha.com/technical-documentation/troubleshooting/broker-rejection-errors
+  - id: capital-warning
+    title: Capital Warning ("not enough available capital")
+    cause: Insufficient available capital for a bot to enter a new position.
+    docs: https://docs.optionalpha.com/technical-documentation/troubleshooting/capital-warnings
+  - id: position-limit-warning
+    title: Position Limit Warnings
+    cause: The bot reached the maximum allowable positions for a bot or for the trading day.
+    docs: https://docs.optionalpha.com/technical-documentation/troubleshooting/position-limit-warnings
+  - id: trade-enforcement
+    title: Trade Enforcements
+    cause: Trade enforcement rules for a given strategy were violated.
+    docs: https://docs.optionalpha.com/technical-documentation/troubleshooting/trade-enforcements
+  - id: pricing-anomaly
+    title: Pricing Anomaly Warning
+    cause: A trade opportunity experienced pricing outside the expected range.
+    docs: https://docs.optionalpha.com/technical-documentation/troubleshooting/pricing-anomaly-warning
+  - id: missing-or-invalid-input
+    title: Missing or Invalid Input
+    cause: A required input field was not assigned inside the automation.
+    docs: https://docs.optionalpha.com/technical-documentation/troubleshooting/missing-or-invalid-input
+  - id: daily-symbol-limit
+    title: Daily Symbol Limit Error
+    cause: A bot attempted to reference more than 10 symbols in a single trading day.
+    docs: https://docs.optionalpha.com/technical-documentation/troubleshooting/daily-symbol-limit-error
+  - id: excessive-errors-failsafe
+    title: Excessive Errors Failsafe
+    cause: A bot encountered ten errors in one day and automatically turned off automations.
+    docs: https://docs.optionalpha.com/technical-documentation/troubleshooting/excessive-errors-failsafe
+  - id: bot-event-loop
+    title: Bot Event Loops
+    cause: Event-loop error in positions triggered by an open-position or close-position event.
+    docs: https://docs.optionalpha.com/technical-documentation/troubleshooting/bot-event-loops
+  - id: option-expiration-availability
+    title: Option & Expiration Availability
+    cause: A specific option leg or expiration is not available for the position.
+    docs: https://docs.optionalpha.com/technical-documentation/troubleshooting/option-and-expiration-availability
+  - id: overlapping-strikes-failsafe
+    title: Overlapping Strikes Failsafe
+    cause: Bot attempted to overlap identical strike prices or split apart positions.
+    docs: https://docs.optionalpha.com/technical-documentation/troubleshooting/overlapping-strikes-failsafe
+  - id: price-exceeds-strike-difference
+    title: Price Exceeds Strike-Difference Error
+    cause: Protects against overpaying when manually closing a spread position.
+    docs: https://docs.optionalpha.com/technical-documentation/troubleshooting/price-exceeds-strike-difference-error
+  - id: duplicate-orders
+    title: Duplicate Orders Error
+    cause: Protects against replicating orders across the bot and brokerage platform.
+    docs: https://docs.optionalpha.com/technical-documentation/troubleshooting/duplicate-orders-error
+  - id: invalid-authorization
+    title: Invalid Authorization Error
+    cause: Broker credentials were changed after authorizing an account.
+    docs: https://docs.optionalpha.com/technical-documentation/troubleshooting/invalid-authorization-error

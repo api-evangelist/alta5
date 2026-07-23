@@ -1,0 +1,104 @@
+# Option Alpha
+
+## OA Docs
+
+- [Welcome](https://docs.optionalpha.com/welcome-to-option-alpha.md): Welcome to the Option Alpha Docs. Inside is everything you need to start trading with Option Alpha, including detailed guides, video tutorials, technical documentation, and FAQs.
+- [Intro to Option Alpha](https://docs.optionalpha.com/option-alpha-intro.md): Welcome to the Option Alpha help docs. New to bots and autotrading? This is the best place to get started.
+- [Getting Started](https://docs.optionalpha.com/getting-started.md): Discover how to get started with Option Alpha bots.
+- [Creating a bot](https://docs.optionalpha.com/getting-started/creating-a-bot.md): Learn how to build and customize a new bot in Option Alpha.
+- [Connecting your brokerage account](https://docs.optionalpha.com/getting-started/connecting-your-brokerage-account.md): Set up your Option Alpha account and connect one or more brokers to live trade with your bots.
+- [Make your first trade](https://docs.optionalpha.com/getting-started/make-your-first-trade.md)
+- [Create custom watchlists](https://docs.optionalpha.com/getting-started/create-custom-watchlists.md): Filter and rank all available symbols using the Screener.
+- [Bots](https://docs.optionalpha.com/tools/bots.md): New to bots and autotrading? This is the best place to get started.
+- [Safeguards](https://docs.optionalpha.com/tools/bots/safeguards.md): Bots have safeguards to protect traders. You are always in control of your bot's allocation and position limits. Here is everything you need to know when setting your safeguards and limits.
+- [Automations](https://docs.optionalpha.com/tools/bots/automations.md): Automations contain step-by-step actions performed by your bot on a schedule. Learn how to create and schedule automations for options trading.
+- [Loops](https://docs.optionalpha.com/tools/bots/loops.md): With loops, you can scan a custom watchlist of tickers or manage multiple positions in a single automation.
+- [Decision actions](https://docs.optionalpha.com/tools/bots/decision-actions.md): Decision actions allow bots to conditionally follow yes/no paths inside an automation. Learn how decision recipes reference different market, positions, and opportunity criteria.
+- [Inputs](https://docs.optionalpha.com/tools/bots/inputs.md): Inputs are dynamic tools that give you added flexibility with variables. Discover the many ways you can leverage the power of inputs in your bots and automations.
+- [Tags](https://docs.optionalpha.com/tools/bots/tags.md): Tags are a powerful way to label your positions for easy identification and organize your bots' statefulness. Explore all the ways you can tag (and untag) your bots.
+- [Automation logs](https://docs.optionalpha.com/tools/bots/automation-logs.md): Bot logs display your bot's detailed automation history and provide insight into its actions. Learn how to use bot logs to view your bot's activity and identify any errors or warnings.
+- [SmartPricing](https://docs.optionalpha.com/tools/bots/smartpricing.md): Learn more about our incredible SmartPricing feature and how you can customize settings in any automation when sending orders to your broker.
+- [Webhooks](https://docs.optionalpha.com/tools/bots/webhooks.md): Webhooks allow traders to link to external platforms and trigger automations using custom trading signals, technical indicators, email alerts, and more.
+- [Finding Trades](https://docs.optionalpha.com/tools/finding-trades.md): Explore the different tools we can use to find potential trading opportunities, both manually and with automation.
+- [Scanners](https://docs.optionalpha.com/tools/finding-trades/scanners.md): Use automation to scan the market, evaluate opportunities, check technical indicators, open positions, and much more.
+- [Trade Ideas](https://docs.optionalpha.com/tools/finding-trades/trade-ideas.md)
+- [0DTE Oracle](https://docs.optionalpha.com/tools/finding-trades/0dte-oracle.md): 0DTE Oracle is a tool that helps us find and analyze 0DTE and next day trading opportunities.
+- [Earnings Edge](https://docs.optionalpha.com/tools/finding-trades/earnings-edge.md): Earnings Edges gives traders a math-based approach to find backtested opportunities based on historical price action post-earning.
+- [Screener](https://docs.optionalpha.com/tools/finding-trades/screener.md): Find, filter, sort and rank all supported symbols to find trades and create custom watchlists.
+- [Trade Grid](https://docs.optionalpha.com/tools/finding-trades/trade-grid.md)
+- [Top Strategies](https://docs.optionalpha.com/tools/finding-trades/top-strategies.md)
+- [Backtesting](https://docs.optionalpha.com/tools/backtesting.md): Backtest your ideas and automate your strategy to trade with the confidence of historical data.
+- [Creating a backtest](https://docs.optionalpha.com/tools/backtesting/creating-a-backtest.md): Create your own custom backtest with specific settings and detailed entry/exit filters.
+- [Comparing and combining backtests](https://docs.optionalpha.com/tools/backtesting/comparing-and-combining-backtests.md): Compare multiple backtests to optimize variations, assess the strategy's validity, and combine multiple tests into a single strategy.
+- [Automate your strategy](https://docs.optionalpha.com/tools/backtesting/automate-your-strategy.md): Instantly create an automated strategy from any backtest to generate a bot complete with all the backtest's settings and filters.
+- [Best practices](https://docs.optionalpha.com/tools/backtesting/best-practices.md): Understanding settlement for physically-settled securities and how it impacts backtest results.
+- [Backtesting Metrics](https://docs.optionalpha.com/tools/backtesting/backtesting-metrics.md): Overview of how the autotrading backtest engine operates and what each of the different performance metrics mean.
+- [Top backtests](https://docs.optionalpha.com/tools/backtesting/top-backtests.md)
+- [Managing Positions](https://docs.optionalpha.com/tools/managing-positions.md): Let bots monitor your trades with instant exit options.
+- [Exit Options](https://docs.optionalpha.com/tools/managing-positions/exit-options.md): Exit Options automatically manage your positions every minute of the day so you don't have to worry about tracking your trades' profit, loss, days to expiration, or earnings.
+- [Monitor Automations](https://docs.optionalpha.com/tools/managing-positions/monitor-automations.md): Use a monitor automation to your bot that checks for more specific exit conditions:
+- [Automated Trading](https://docs.optionalpha.com/tools/automated-trading.md): Leverage automation to improve returns, find better trades, and transform into a superhuman trader.
+- [Clone Bot Templates](https://docs.optionalpha.com/tools/clone-bot-templates.md): With bot templates and bot cloning, you can easily find ideas, share trading strategies, and add bots to your portfolio with a single click. Finding new trading strategies has never been easier.
+- [Manual Trading](https://docs.optionalpha.com/guides/manual-trading.md)
+- [Automation](https://docs.optionalpha.com/guides/automation.md)
+- [Platform](https://docs.optionalpha.com/technical-documentation/platform.md)
+- [Infrastructure & Security](https://docs.optionalpha.com/technical-documentation/platform/infrastructure-and-security.md): A detailed overview of the server and network infrastructure used to run the autotrading platform.
+- [Automations](https://docs.optionalpha.com/technical-documentation/platform/automations.md): An automation is conditional logic, represented as a decision tree scheduled to run at a particular time.
+- [Automation Behavior](https://docs.optionalpha.com/technical-documentation/platform/automation-behavior.md): Curious how automations work? This is a technical overview of the autotrading platform's automation behavior and execution configuration.
+- [Data Feeds](https://docs.optionalpha.com/technical-documentation/platform/data-feeds.md): An overview of the platform's data operations, ticker selection process, and a current database of tradable symbols.
+- [Order Handling](https://docs.optionalpha.com/technical-documentation/platform/order-handling.md): Overview of how orders are handled between Option Alpha and the broker.
+- [Bot Limitations](https://docs.optionalpha.com/technical-documentation/platform/bot-limitations.md): Learn the current limitations of the autotrading platform and how to navigate certain situations that are out of the bot's control.
+- [Supported Ticker Symbols](https://docs.optionalpha.com/technical-documentation/platform/supported-ticker-symbols.md): The complete list of all stock and ETF ticker symbols available for autotrading in Option Alpha.
+- [Supported Browsers](https://docs.optionalpha.com/technical-documentation/platform/supported-browsers.md): The autotrading platform is browser-based to offer flexibility and accessibility to our users. Here is what you need to know about supported browsers.
+- [Supported Countries](https://docs.optionalpha.com/technical-documentation/platform/supported-countries.md): Our brokerage partnerships bring our autotrading platform to traders in 120+ countries. Learn more about platform access by country.
+- [Ex Dividend & Earnings Dates](https://docs.optionalpha.com/technical-documentation/platform/ex-dividend-and-earnings-dates.md): The frequency, schedule, and projected ex-dividend dates for Option Alpha's supported ETFs. Dates are an estimation and subject to change.
+- [Options Expiration Protocol](https://docs.optionalpha.com/technical-documentation/platform/options-expiration-protocol.md): Managing Expiring ITM Positions in Option Alpha
+- [Autotrading Best Practices](https://docs.optionalpha.com/technical-documentation/platform/autotrading-best-practices.md): A list of popular do's and don'ts to help guide your autotrading.
+- [Calculations](https://docs.optionalpha.com/technical-documentation/calculations.md)
+- [Profit and Loss](https://docs.optionalpha.com/technical-documentation/calculations/profit-and-loss.md): An overview of how profit and loss are calculated and displayed on the bot dashboard.
+- [Decision Properties](https://docs.optionalpha.com/technical-documentation/calculations/decision-properties.md): Security object details and the various properties used to create decisions.
+- [Decision Calculations](https://docs.optionalpha.com/technical-documentation/calculations/decision-calculations.md): Overview of the calculations used by decision recipes to determine position value.
+- [Parameter Selection](https://docs.optionalpha.com/technical-documentation/calculations/parameter-selection.md): Technical explanations on how calculated input parameters are chosen.
+- [Probability](https://docs.optionalpha.com/technical-documentation/calculations/probability.md): Probability and chance are used synonymously. Any decision recipes describing the probability or chance of something happening will be calculated by the probability formula described here.
+- [Probability Theory](https://docs.optionalpha.com/technical-documentation/calculations/probability-theory.md): Implied volatility (IV) and historical volatility (HV) are essential measures in probability theory. Learn why Option Alpha uses HV for calculating the probability of a future price.
+- [Understanding Alpha and Expected Value](https://docs.optionalpha.com/technical-documentation/calculations/understanding-alpha-and-expected-value.md): Explore the math behind Expected Value (EV) for defined-risk options trades. We discuss Trade Ideas 2.0's groundbreaking EV-based Alpha metric.
+- [Troubleshooting](https://docs.optionalpha.com/technical-documentation/troubleshooting.md): Common errors and troubleshooting help to get your bots running smoothly.
+- [Testing Automations](https://docs.optionalpha.com/technical-documentation/troubleshooting/testing-automations.md): Testing automations enables you to check all the logic and decision criteria to be confident your bots will perform how you anticipate.
+- [Broker Rejection Errors](https://docs.optionalpha.com/technical-documentation/troubleshooting/broker-rejection-errors.md): Overview of common error messages you may encounter when submitting orders through the autotrading platform.
+- [Capital Warnings](https://docs.optionalpha.com/technical-documentation/troubleshooting/capital-warnings.md): The “not enough available capital” warning occurs when there isn't sufficient capital for a bot to enter a new position.
+- [Position Limit Warnings](https://docs.optionalpha.com/technical-documentation/troubleshooting/position-limit-warnings.md): Position limit warnings occur when you reach the maximum allowable positions for a bot or the trading day.
+- [Trade Enforcements](https://docs.optionalpha.com/technical-documentation/troubleshooting/trade-enforcements.md): Learn how to navigate the trade enforcement rules for different strategies.
+- [Pricing Anomaly Warning](https://docs.optionalpha.com/technical-documentation/troubleshooting/pricing-anomaly-warning.md): The “pricing anomaly” warning occurs when a trade opportunity experiences pricing that is outside of what is expected.
+- [Missing or Invalid Input](https://docs.optionalpha.com/technical-documentation/troubleshooting/missing-or-invalid-input.md): The “missing input” or “invalid value” error occurs when a required input field is not assigned inside the automation.
+- [Daily Symbol Limit Error](https://docs.optionalpha.com/technical-documentation/troubleshooting/daily-symbol-limit-error.md): The “daily symbol limit” error occurs when a bot attempts to reference more than 10 symbols in a single trading day.
+- [Excessive Errors Failsafe](https://docs.optionalpha.com/technical-documentation/troubleshooting/excessive-errors-failsafe.md): The “excessive errors” failsafe occurs when a bot encounters ten errors in one day and automatically turns off automations. Here is what you need to know about excessive errors.
+- [Bot Event Loops](https://docs.optionalpha.com/technical-documentation/troubleshooting/bot-event-loops.md): Bot event loop errors may occur in positions that are triggered by an open position or close position event.
+- [Option & Expiration Availability](https://docs.optionalpha.com/technical-documentation/troubleshooting/option-and-expiration-availability.md): Bots notify you with an error or warning if a specific option leg or expiration are not available for your position. Here's why you receive these alerts, and how to avoid them.
+- [Overlapping Strikes Failsafe](https://docs.optionalpha.com/technical-documentation/troubleshooting/overlapping-strikes-failsafe.md): The overlapping strikes failsafe prohibits bots from overlapping identical strike prices or splitting apart positions.
+- [Price Exceeds Strike-Difference Error](https://docs.optionalpha.com/technical-documentation/troubleshooting/price-exceeds-strike-difference-error.md): The price exceeds strike-difference error protects you from overpaying when you manually close a spread position.
+- [Duplicate Orders Error](https://docs.optionalpha.com/technical-documentation/troubleshooting/duplicate-orders-error.md): The duplicate orders error protects you from replicating orders in your bot and brokerage platform.
+- [Invalid Authorization Error](https://docs.optionalpha.com/technical-documentation/troubleshooting/invalid-authorization-error.md): You'll receive an Invalid Authorization Error if you change your broker credentials after authorizing an account.
+- [Indicators](https://docs.optionalpha.com/technical-documentation/indicators.md): Current indicators on the platform and their source code from TA-Lib: Technical Analysis Library.
+- [ADX](https://docs.optionalpha.com/technical-documentation/indicators/adx.md): Overview of the Average Directional Index calculation.
+- [ATR](https://docs.optionalpha.com/technical-documentation/indicators/atr.md): Overview of the Average True Range calculation.
+- [BOLLINGER BANDS](https://docs.optionalpha.com/technical-documentation/indicators/bollinger-bands.md): Overview of the Bollinger Bands Indictor.
+- [BOP](https://docs.optionalpha.com/technical-documentation/indicators/bop.md): Overview of the Balance of Power calculation.
+- [CCI](https://docs.optionalpha.com/technical-documentation/indicators/cci.md): Overview of the Commodity Channel Index calculation.
+- [CMO](https://docs.optionalpha.com/technical-documentation/indicators/cmo.md): Overview of the Chande Momentum Oscillator calculation.
+- [DX](https://docs.optionalpha.com/technical-documentation/indicators/dx.md): Overview of the Directional Index calculation.
+- [EMA](https://docs.optionalpha.com/technical-documentation/indicators/ema.md): Overview of the Exponential Moving Average indicator.
+- [GEX](https://docs.optionalpha.com/technical-documentation/indicators/gex.md): Gamma exposure charts specific to each expiration date are available in the Option Alpha platform for all supported ticker symbols.
+- [KAMA](https://docs.optionalpha.com/technical-documentation/indicators/kama.md): Overview of the Kaufman Adaptive Moving Average indicator.
+- [MACD](https://docs.optionalpha.com/technical-documentation/indicators/macd.md): Overview of the Moving Average Convergence Divergence indicator.
+- [MFI](https://docs.optionalpha.com/technical-documentation/indicators/mfi.md): Overview of the Money Flow Index indicator.
+- [MOM](https://docs.optionalpha.com/technical-documentation/indicators/mom.md): Overview of the Momentum indicator.
+- [ROC](https://docs.optionalpha.com/technical-documentation/indicators/roc.md): Overview of the Rate of Change calculation.
+- [RSI](https://docs.optionalpha.com/technical-documentation/indicators/rsi.md): Overview of the Relative Strength Index calculation.
+- [SMA](https://docs.optionalpha.com/technical-documentation/indicators/sma.md): Overview of the Simple Moving Average indicator.
+- [STOCH](https://docs.optionalpha.com/technical-documentation/indicators/stoch.md): Overview of the Stochastic Oscillator Indicator.
+- [STOCH RSI](https://docs.optionalpha.com/technical-documentation/indicators/stoch-rsi.md): Overview of the Stochastic RSI Indicator.
+- [TRIMA](https://docs.optionalpha.com/technical-documentation/indicators/trima.md): Overview of the Triangular Moving Average calculation.
+- [ULTIMATE OSCILLATOR](https://docs.optionalpha.com/technical-documentation/indicators/ultimate-oscillator.md): Overview of the Ultimate Oscillator Indicator.
+- [WILLIAMS %R](https://docs.optionalpha.com/technical-documentation/indicators/williams-r.md): Overview of the Williams % R indicator.
+- [FAQs](https://docs.optionalpha.com/answer-vault/faqs.md): The answer vault is a collection of popular frequently asked questions about the Option Alpha platform functionality, including specific use cases and examples to help members.
+- [Day Trading](https://docs.optionalpha.com/answer-vault/day-trading.md): A collection of FAQs about day trading, 0DTE options, PDT rules, and everything you need to know to day trade with confidence.

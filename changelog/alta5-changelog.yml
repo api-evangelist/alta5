@@ -1,0 +1,26 @@
+generated: '2026-07-17'
+method: searched
+source: https://optionalpha.com/changelog
+scheme: dated
+note: >-
+  Option Alpha publishes a dated product changelog (no semantic version
+  numbers). Entries below are the recent window captured from the public
+  changelog; the live page is the source of truth.
+current: '2026-06-22'
+entries:
+  - date: '2026-06-22'
+    highlights: Major backtester upgrade including up to 45 DTE, new position exit rules, AI-friendly copy/paste.
+  - date: '2026-03-23'
+    highlights: Backtester enhancements, new bot decision capabilities, and data export functionality.
+  - date: '2026-02-09'
+    highlights: Enhanced trade analysis tools, backtester improvements, bot decisions with search features.
+  - date: '2025-12-15'
+    highlights: Historical gamma exposure (GEX) charting added; new GEX decision recipes introduced.
+  - date: '2025-10-20'
+    highlights: Gamma exposure backtesting automation, expanded ORB symbols, dollar-based stop-loss exits.
+  - date: '2025-08-11'
+    highlights: Instant exit options, gamma exposure features, and additional bot decision types.
+  - date: '2025-06-16'
+    highlights: Opening range breakout functionality, profit target exits, strategy combination capability.
+  - date: '2025-05-05'
+    highlights: New trade controls, price target exit options, assignment detection, position sizing choices.

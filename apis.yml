@@ -1,19 +1,49 @@
 aid: alta5
 name: Alta5
-description: Alta5 is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Alta5 is the technology brand of Option Alpha, LLC, a St. Petersburg,
+  Florida company (founded 2010) that operates optionalpha.com, a no-code
+  automated options-and-stock trading platform for retail traders. Users build
+  "bots" from natural-language recipes that discover, backtest, and automate
+  trading strategies, then connect a brokerage account (TradeStation, Tradier,
+  Charles Schwab, tastytrade) so bots submit trades through the broker's API.
+  Option Alpha does not publish a general-purpose public REST API; its only
+  programmatic integration surface is inbound trigger Webhooks, which let
+  external platforms such as TradingView, TrendSpider, and Zapier fire bot
+  automations from custom signals and indicators. Alta5 was added to the API
+  Evangelist network as a 500 Global portfolio company.
 url: https://raw.githubusercontent.com/api-evangelist/alta5/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - 500-global
-x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier: profile
+x-tier-reason: enriched
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/5fba23ebc651c6d16f446fc4/62388f2777982d6b8344216a_oa%20logo.svg
 specificationVersion: '0.20'
 created: '2026-07-17'
 modified: '2026-07-17'
 tags:
 - Company
+- Trading
+- Options
+- Automated Trading
+- Fintech
+- Bots
+- Webhooks
+- Backtesting
+- Brokerage
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +53,42 @@ maintainers:
 common:
 - type: Website
   url: https://optionalpha.com
+- type: Documentation
+  url: https://docs.optionalpha.com
+- type: GettingStarted
+  url: https://docs.optionalpha.com/getting-started
+- type: Support
+  url: https://optionalpha.com/community
+- type: Blog
+  url: https://optionalpha.com/blog
+- type: Pricing
+  url: https://optionalpha.com/pricing
+- type: SignUp
+  url: https://optionalpha.com/signup
+- type: Login
+  url: https://optionalpha.com/login
+- type: GitHubOrganization
+  url: https://github.com/alta5
+- type: TermsOfService
+  url: https://optionalpha.com/legal/terms-of-use
+- type: PrivacyPolicy
+  url: https://optionalpha.com/legal/privacy-policy
+- type: StatusPage
+  url: https://status.optionalpha.com
+- type: ChangeLog
+  url: changelog/alta5-changelog.yml
+- type: Lifecycle
+  url: lifecycle/alta5-lifecycle.yml
+- type: Webhooks
+  url: asyncapi/alta5-webhooks.yml
+- type: ErrorCatalog
+  url: errors/alta5-error-codes.yml
+- type: LLMsTxt
+  url: llms/alta5-llms.txt
+- type: DomainSecurity
+  url: security/alta5-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
