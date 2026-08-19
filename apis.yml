@@ -31,7 +31,7 @@ accessModel:
   generated: '2026-07-22'
   method: derived
 image: https://cdn.prod.website-files.com/5fba23ebc651c6d16f446fc4/62388f2777982d6b8344216a_oa%20logo.svg
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-17'
 tags:
