@@ -45,6 +45,9 @@ image: https://cdn.prod.website-files.com/5fba23ebc651c6d16f446fc4/62388f2777982
 specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-17'
+x-docs-platform: gitbook
+x-docs-platform-confidence: high
+x-docs-platform-checked: 2026-09-17
 tags:
 - Company
 - Trading
